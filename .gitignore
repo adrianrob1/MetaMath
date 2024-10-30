@@ -1,2 +1,5 @@
 .idea
 .gitignore
+HF_CACHE
+models
+checkpoints

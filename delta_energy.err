@@ -1,0 +1,13 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+/var/spool/slurmd/job8447235/slurm_script: line 29: wandb: command not found
+/leonardo_work/IscrC_MGNTC/adrianrob1/miniconda3/bin/python3: Error while finding module specification for 'torch.distributed.launch' (ModuleNotFoundError: No module named 'torch')
+Traceback (most recent call last):
+  File "/leonardo_work/IscrC_Ge-Di/LLM-HE/MetaMath/eval_gsm8k.py", line 4, in <module>
+    import jsonlines
+ModuleNotFoundError: No module named 'jsonlines'
+Traceback (most recent call last):
+  File "/leonardo_work/IscrC_Ge-Di/LLM-HE/MetaMath/eval_math.py", line 4, in <module>
+    import jsonlines
+ModuleNotFoundError: No module named 'jsonlines'
